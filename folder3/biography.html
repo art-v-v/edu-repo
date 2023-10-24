@@ -3,6 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Біографія</title>
+<style>
+    li > a{
+        text-decoration: none;
+    }
+    ul.links li{
+        list-style: none;
+        width:130px;
+        border: solid black 2px;
+        background-color: blue;
+    }
+    ul.links li a:link{
+        color:yellow;
+    }
+    ul.links li a:visited{
+        color:rgb(192, 192, 119);
+    }
+    ul.links li:hover{
+        background-color: magenta;
+    }
+    ul.links li a:hover{
+        color:green;
+    }
+    ul.links li:active{
+        background-color: yellow;
+    }
+    ul.links li a:active{
+        color: blue;
+    }
+</style>
 </head>
 <body>
 <h1 id="top">Автобіографія Вусика Артема Вікторовича</h1>
@@ -12,7 +41,7 @@
 <article id="main">
 <h3>Зміст</h3>
 
-<ul>
+<ul class="links">
     <li><a href="#section1">Базова інформація</a></li>
     <li><a href="#section2">Дитинство</a></li>
     <li><a href="#section3">Шкільні роки</a></li>
