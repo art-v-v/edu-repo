@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <title>Біографія</title>
 <style>
-    li > a{
+    ul.links a{
         text-decoration: none;
     }
     ul.links li{
@@ -12,24 +12,25 @@
         width:130px;
         border: solid black 2px;
         background-color: blue;
+        margin-bottom: 2px;
     }
-    ul.links li a:link{
+    ul.links a:link{
         color:yellow;
     }
-    ul.links li a:visited{
-        color:rgb(192, 192, 119);
+    ul.links a:visited{
+        color:lightseagreen;
     }
     ul.links li:hover{
         background-color: magenta;
     }
-    ul.links li a:hover{
-        color:green;
+    ul.links li:hover a{
+        color:lime !important;
     }
     ul.links li:active{
         background-color: yellow;
     }
-    ul.links li a:active{
-        color: blue;
+    ul.links li:active a{
+        color: blue !important;
     }
 </style>
 </head>
