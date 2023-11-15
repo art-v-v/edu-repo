@@ -1,3 +1,6 @@
+body{
+    background-color: bisque;
+}
 .row{
     width: 100%;
 }
@@ -7,22 +10,23 @@
     text-align: center;
     margin-bottom: 22px;
 }
-.span_text_1, .span_text_2, .span_text_3{
+.name_1, .name_2, .name_3{
     float: right;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 0px 7px 0px 7px;
     display: block;
     width: 80px;
     text-align: center;
 }
-.span_text_1{
-    background-color: orange;
+.name_1{
+    background-color: pink;
 }
-.span_text_2{
+.name_2{
     background-color: maroon;
     color:white;
 }
-.span_text_3{
-    background-color: pink;
+.name_3{
+    background-color: orange;
 }
 .block{
     background-color:lightblue;
@@ -30,13 +34,11 @@
     margin-right:10px;
     margin-bottom:20px;
     border: 2px solid black;
+    border-radius: 10px;
 } 
 .block p{
-    padding: 20px;
+    padding: 10px;
 }
-
-
-
 
 /* Large devices */
 @media (min-width: 992px) {
@@ -80,7 +82,7 @@
     .col-lg-12 {
     width: 100%;
     }
-   }
+}
    /* Medium devices */
    @media (min-width: 768px) and (max-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
