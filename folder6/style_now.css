@@ -1,0 +1,28 @@
+ul.firstlist > li:nth-child(odd){
+    background-color: gray;
+}
+ul.firstlist > li:nth-child(odd) li:nth-child(odd){
+    background-color: white;
+}
+ul.firstlist > li:nth-child(even){
+    background-color: white;
+}
+ul.firstlist > li:nth-child(even) li:nth-child(odd){
+    background-color: gray;
+}
+ol.secondlist > li:nth-child(4){
+    background-color:aqua;
+}
+ol.secondlist > li:nth-child(3):hover, ol.secondlist > li:nth-child(5):hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+p>a{
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+}
