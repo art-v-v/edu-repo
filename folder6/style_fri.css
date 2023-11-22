@@ -1,3 +1,29 @@
+/* Large devices*/
+@media (min-width: 992px) {
+    .big-top th{
+        font-size: 1.3em;
+    }
+    .big-nottop td{
+        font-size: 1.2em;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+    .mdm-top th{
+        font-size: 1.2em;
+    }
+    .mdm-nottop td{
+        font-size: 1.1em;
+    }
+}
+/* Small devices */
+@media (max-width: 768px) {
+    .sml-top th{
+        font-size: 1.1em;
+    }
+}
+
+
 tbody tr:nth-child(odd) td{
     background-color: gray;
 }
