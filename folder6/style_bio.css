@@ -98,6 +98,10 @@ body > a{
     font-size: 1.2em;
     border: solid 1px;
 }
+article > h3, article > p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 #section1>h3, #section2>h3, #section3>h3, #section4>h3, #section5>h3{
     font-size: 1.44em;
 }
